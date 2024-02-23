@@ -1,0 +1,59 @@
+---
+import CodeIcon from "@/Icons/CodeIcon.astro"
+import { projects } from "@cv"
+---
+
+<section id="projects" class="my-16">
+  <header class="flex gap-4 ml-[-12px] items-center mb-8">
+    <CodeIcon class="size-8"/>
+    <h2 class="text-2xl font-semibold">
+      Projects
+    </h2>
+  </header>
+
+  {
+    projects.map(({name, description, highlights, url, github, image}) => {
+      return (
+      <div class="md:flex gap-8 mt-8">
+        <figure class="w-[350px] h-[218px] rounded-lg dark:shadow-sm dark:shadow-slate-400">
+          <img class="w-full h-full object-cover rounded-lg" src={image} alt="">
+        </figure>
+        <div class="mt-6 md:mt-0">
+          <h2>{name}</h2>
+          <div class="flex gap-2 mt-4">
+          {
+            highlights.map((pill) => {
+              return (
+                  <p class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-purple-400 border border-purple-400">{pill}</p>
+              )
+            })
+          }
+          </div>
+          <div class="flex flex-col justify-between h-[148px]">
+            <p class="mt-8 text-gray-400 flex-1 max-w-[400px]">{description}</p>
+            <footer class="flex gap-8">
+              <a 
+              class="border border-gray-600 p-2 rounded-xl cursor-pointer hover:scale-110" 
+              href={github}
+              target="_blank"
+              rel="noopener noreferrer">Code</a>
+              <a 
+              class="border border-gray-600 p-2 rounded-xl cursor-pointer hover:scale-110" 
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer">Preview</a>
+            </footer>
+          </div>
+        </div>
+
+
+      </div>
+      )
+    })
+  }
+
+
+
+
+
+</section>

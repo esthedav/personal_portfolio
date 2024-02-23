@@ -1,0 +1,26 @@
+<header class="flex fixed top-4 z-10 md:justify-between gap-8 items-center py-4 opacity-90 rounded-2xl px-8 lg:w-[90ch] w-10/12">
+  <a class="cursor-pointer" href="#top">
+    <img
+      class="rounded-full w-6 h-6"
+      src="/logo_favicon.svg" alt="On-Off Logo">
+  </a>
+
+  <nav class="flex md:gap-x-10 gap-x-4">
+    <a href="#top">Home</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+  </nav>
+</header>
+
+<style>
+  header {
+    animation: header-shadow 1s linear both;
+    animation-timeline: scroll();
+    animation-range: 0 100px;
+  }
+  @keyframes header-shadow {
+    to {
+      @apply shadow-lg ring-1 backdrop-blur bg-gray-300/60 dark:bg-gray-800/60 ;
+    }
+  }
+</style>

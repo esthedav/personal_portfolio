@@ -1,0 +1,269 @@
+{
+  "basics": {
+    "name": "Luis David Perez Chavarin",
+    "label": "Accountant with 5 years of experience in Credit and collections & enthusiastic Web developer jr.",
+    "image": "/foto-perfil.jpg",
+    "email": "luisdavidchavarin@gmail.com",
+    "phone": "+52 3314638341",
+    "url": "In progress",
+    "summary": "I have five years of experience working as an Accounts Receivable Analyst at HPE, collaborating with teams from the US and India. My primary system was SAP, where I managed GL account analysis, payment allocation, and JV preparation. Additionally, I frequently communicated with native English speakers. I also automated processes using Excel. \n Accountant with strong analytical and problem-solving skills, highly motivated to apply these skills to a web development career. Actively learning and building web development projects in my free time.",
+    "location": {
+      "address": null,
+      "postalCode": null,
+      "city": "Guadalajara",
+      "countryCode": "MX",
+      "region": "Jalisco"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Luis David Perez Chavarin",
+        "url": "https://www.linkedin.com/in/luis-david-perez-chavarin-688a18192/"
+      },
+      {
+        "network": "GitHub",
+        "username": "esthedav",
+        "url": "https://github.com/esthedav"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Hewlett Packard Enterprise",
+      "position": "Credit and collections",
+      "url": null,
+      "startDate": "2018-09-01",
+      "endDate": null,
+      "summary": "Possessing a strong foundation in financial data management and analysis, I have experience across various processes including processing and allocating transactions, ensuring accuracy through data analysis, resolving discrepancies, maintaining financial records, reconciling bank statements, and applying cash receipts.",
+      "highlights": [
+        "Processing and allocating financial transactions",
+        "Analyzing financial data to ensure accuracy and completeness",
+        "Resolving discrepancies and managing disputes",
+        "Preparing and maintaining financial records",
+        "Managing online business listings",
+        "Reconciling bank statements",
+        "Applying cash receipts"
+      ]
+    },
+    {
+      "name": "Afore SURA México",
+      "position": "Asesor Previsional",
+      "url": null,
+      "startDate": "2017-09-11",
+      "endDate": "2018-09-17",
+      "summary": "Drawing upon a background in client relationship management and sales, I have experience across various stages of the customer journey. This includes attracting new clients through targeted outreach and innovative strategies, tracking customer interactions for effective engagement, and providing pension advice tailored to individual needs. Additionally, I have experience promoting and collecting voluntary savings, demonstrating my ability to build trust and encourage financial well-being within customer relationships.",
+      "highlights": [
+        "Attracting new clients through targeted outreach and engagement strategies",
+        "Understanding client needs and goals",
+        "Encouraging positive financial decisions",
+        "Tracking and analyzing client interactions"
+      ]
+    }
+  ],
+  "volunteer": [{
+    "organization": "Organization",
+    "position": "Volunteer",
+    "url": "https://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Description…",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+    ]
+  }],
+  "education": [
+    {
+    "institution": "Universidad UTEG",
+    "url": null,
+    "area": "Accounant",
+    "summary": "Bachelor's Degree in Public Accounting",
+    "studyType": "Bachelor",
+    "startDate": "2015-04-01",
+    "endDate": "2017-09-01",
+    "score": "9.3",
+    "courses": [
+      "Business Administration",
+      "Accounting",
+      "Finance",
+      "Economics"
+      ]
+    },
+    {
+      "institution": "Platzi",
+      "url": "https://platzi.com/new-home/",
+      "area": "Programming",
+      "summary": "Certifications in Web Development",
+      "studyType": "Certification",
+      "startDate": "2022-11-01",
+      "endDate": null,
+      "score": null,
+      "courses": [
+        "Web Development",
+        "Programming and Software Development",
+        "Data Science and Artificial Intelligence",
+        "English",
+        "Design and User Experience (UX)",
+        "Business and Entrepreneurship"
+        ]
+      }
+  ],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "certificates": [{
+    "name": "Certificate",
+    "date": "2021-11-07",
+    "issuer": "Company",
+    "url": "https://certificate.com"
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "url": "https://publication.com",
+    "summary": "Description…"
+  }],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Jr",
+      "keywords": [
+        "Web development", "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Jr.",
+      "keywords": [
+        "Web development", "Frontend", "Responsive Design"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Jr.",
+      "keywords": [
+        "Web development", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Jr",
+      "keywords": [
+        "Web development", "Frontend", "CSS Framework", "Responsive Design"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Jr.",
+      "keywords": [
+        "Data Bases", "SQL", "Database", "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Jr.",
+      "keywords": [
+        "Control version", "Collaboration"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Jr.",
+      "keywords": [
+        "Control version", "Collaboration", "Source code", "Git"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Jr.",
+      "keywords": [
+        "Web development", "Frontend", "JavaScript Library", "UI"
+      ]
+    },
+    {
+      "name": "Accounting",
+      "level": "Entry",
+      "keywords": [
+        "GL Analysis"
+      ]
+    },
+    {
+      "name": "GL Analysis",
+      "level": "Entry",
+      "keywords": [
+        "GL Analysis"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [{
+    "name": "Programing",
+    "keywords": [
+      "Web Developer",
+      "Backend",
+      "Programing"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference…"
+  }],
+  "projects": [
+    {
+      "name": "E-commerce con React",
+      "image": "/Reactjs_con_vite.webp",
+      "description": "Tailwind Project with React and react-router-dom",
+      "highlights": [
+        "Several Pages",
+        "APIs",
+        "Search bar"
+      ],
+      "url": "https://practicotailwindesthedav.netlify.app/",
+      "github" : "https://github.com/esthedav/reactjs_con_vitejs_y_tailwindcss"
+    },
+    {
+      "name": "Esthedav Travel",
+      "image": "/esthedavTravel.webp",
+      "description": "Landing page made with TailwindCSS",
+      "highlights": [
+        "Dark Mode",
+        "Responsive"
+      ],
+      "url": "https://esthedav.github.io/curso-basico-tailwind/",
+      "github": "https://github.com/esthedav/curso-basico-tailwind"
+    },
+    {
+      "name": "Landing con SASS",
+      "image": "/pagina_sass.webp",
+      "description": "Landing page made with SASS",
+      "highlights": [
+        "SASS"
+      ],
+      "url": "https://github.com/esthedav/fundamentos_de_sass/",
+      "github": "https://esthedav.github.io/fundamentos_de_sass/"
+    },
+    {
+      "name": "Todo App React",
+      "image": "/todo_app.webp",
+      "description": "Todo that save the todos, has modals and allow to delete and complete todos",
+      "highlights": [
+        "Dark Mode",
+        "React"
+      ],
+      "url": "https://esthedav.github.io/curso_de_React.js_platzi/",
+      "github": "https://github.com/esthedav/curso_de_React.js_platzi"
+    }
+  ]
+}

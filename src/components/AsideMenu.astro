@@ -1,0 +1,24 @@
+---
+import Xbox_x from "@/Icons/Xbox_x.astro"
+---
+
+<aside id="aside-menu" class="w-2/4 h-64 bg-slate-900 rounded-xl fixed top-0 right-0 z-10 p-8 pt-16 hidden">
+  <button id="close-side-menu" class="absolute top-4 right-6 cursor-pointer">
+    <Xbox_x />
+  </button>
+  <nav>
+    <ul class="flex flex-col gap-y-6">
+      <li class="text-lg"><a href="#top">Home</a></li>
+      <li class="text-lg"><a href="#experience">Experience</a></li>
+      <li class="text-lg"><a href="#projects">Projects</a></li>
+    </ul>
+  </nav>
+</aside>
+<script>
+  const closeButton = document.querySelector("#close-side-menu")
+  const asideMenu = document.querySelector("#aside-menu")
+  closeButton.addEventListener("click", () => {
+    asideMenu.style.visibility = "hidden"
+  })
+
+</script>

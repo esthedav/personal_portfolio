@@ -1,0 +1,47 @@
+---
+import Briefcase from "@/Icons/Briefcase.astro"
+import { work } from "@cv"
+
+const yearStart = (dateInfo:string) => new Date(dateInfo).getFullYear()
+const yearEnd = (dateInfo:any) => dateInfo == null ? "Actual" : new Date(dateInfo).getFullYear()
+---
+
+<section id="experience" class="my-16">
+
+  <header class="flex gap-4 ml-[-12px] items-center mb-8">
+    <Briefcase class="size-8" />
+    <h2 class="text-2xl font-semibold ">
+      Work Experience
+    </h2>
+  </header>
+
+
+  <ol class="relative border-s border-gray-200 dark:border-amber-400 pl-6">
+    {
+      work.map(({ name, position, startDate, endDate, summary }) => {
+        return (
+          <li class="mb-10 ms-4">
+            <div class="absolute size-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-amber-900 dark:bg-amber-600"></div>
+            <time 
+            class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              {yearStart(startDate)} - {yearEnd(endDate)}
+            </time>
+            <h3 class="text-xl my-4">
+              {name}
+            </h3>
+            <h3 
+            class="text-gray-900 dark:text-gray-300">
+              {position}
+            </h3>
+            <p 
+            class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+              {summary}
+            </p>
+          </li>
+        )
+      })
+    }
+
+  </ol>
+</section>
+

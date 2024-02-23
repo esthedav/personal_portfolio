@@ -1,0 +1,49 @@
+---
+import LinkedInIcon from "@/Icons/LinkedInIcon.astro"
+import GitHubIcon from "@/Icons/GitHubIcon.astro"
+import GmailIcon from "@/Icons/GmailIcon.astro"
+
+import { basics } from "@cv"
+
+const { name, label, email, profiles } = basics
+const linkedProfile = profiles.find(({ network }) => network === "LinkedIn")
+const gitHubProfile = profiles.find(({ network }) => network === "GitHub")
+
+const iconStyle = "size-6 hover:scale-125 transition-all ease-in duration-200"
+
+---
+
+<section class="w-5/6 lg:mt-0 mt-16">
+  <div class="flex gap-8 items-center">
+    <figure class="w-32 aspect-square rounded-lg">
+      <img class="rounded-lg" src="/foto-perfil.webp" alt="">
+    </figure>
+    <h1>Hey 👋</h1>
+  </div>
+  <h1><span class="text-amber-600">I am</span> {name}</h1>
+  <h2 class="text-lg md:text-xl leading-10 text-gray-400">{label}</h2>
+
+  <footer class="flex gap-4 mt-4 ">
+    <a 
+    href={linkedProfile?.url}
+    target="_blank"
+    rel="noopener noreferrer">
+      <LinkedInIcon class={iconStyle}/>
+    </a>
+    <a 
+    href={gitHubProfile?.url}
+    target="_blank"
+    rel="noopener noreferrer">
+      <GitHubIcon class={iconStyle}/>
+    </a>
+    <a 
+    href=`mailto:${email}`
+    target="_blank"
+    rel="noopener noreferrer">
+      <GmailIcon class={iconStyle}/>
+    </a>
+
+
+  </footer>
+
+</section>
